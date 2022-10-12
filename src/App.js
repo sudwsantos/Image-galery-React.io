@@ -7,7 +7,9 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <Header />
+      <Header titulo="Galeria de imágenes con React"/>
+      <Card />
+      <Footer />
     </div>
   );
 }

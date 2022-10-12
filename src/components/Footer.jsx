@@ -1,8 +1,13 @@
 import React from 'react'
+import  Badge from 'react-bootstrap/Badge';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+        <h3>
+            Galería de imágenes <Badge bg="secondary">2022</Badge>
+        </h3>
+    </div>
   )
 }
 

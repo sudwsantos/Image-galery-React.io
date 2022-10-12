@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <h1>Galeria de imágenes con React</h1>
+    <h1>{props.titulo}</h1>
   )
 }
 
