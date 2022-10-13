@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Header titulo="Galeria de imágenes con React"/>
-      <Card />
+      <Card titulo="Hello"/>
       <Footer />
     </div>
   );
